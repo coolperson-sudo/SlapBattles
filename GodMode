@@ -10,6 +10,11 @@
    \_/__/                                                   
 ]]--
 
+--[[
+basically what it does it just spams the remoteevent that is called "goldify" and golden uses it for their ability,
+so the script uses it 100 times and theres god mode
+]]--
+
 game.StarterGui:SetCore("SendNotification", {
 Title = "Slapples";
 Text = "🥊 | Please wait. Collecting slapples..";
@@ -71,8 +76,9 @@ Duration = 5;
 }) 
 
 fireclickdetector(workspace.Lobby.Golden.ClickDetector)
+wait(0.02)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810,328,4)
-wait(0.04)
+wait(0.05)
 for i = 1, 100 do
 game:GetService("ReplicatedStorage").Goldify:FireServer(true)
 end
