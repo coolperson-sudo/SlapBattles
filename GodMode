@@ -78,7 +78,7 @@ Duration = 5;
 fireclickdetector(workspace.Lobby.Golden.ClickDetector)
 wait(0.02)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810,328,4)
-wait(0.05)
+wait(0.07)
 for i = 1, 100 do
 game:GetService("ReplicatedStorage").Goldify:FireServer(true)
 end
