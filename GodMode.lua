@@ -12,7 +12,7 @@
 
 --[[
 basically what it does it just spams the remoteevent that is called "goldify" and golden uses it for their ability,
-so the script uses it 100 times and theres god mode
+so the script uses it 100 times and theres god mode!
 ]]--
 
 game.StarterGui:SetCore("SendNotification", {
