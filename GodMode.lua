@@ -75,7 +75,7 @@ Icon = "";
 Duration = 5;
 }) 
 
-fireclickdetector(workspace.Lobby.Golden.ClickDetector)
+fireclickdetector(workspace.Lobby.GloveStands.Golden.ClickDetector)
 wait(0.02)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810,328,4)
 wait(0.07)
