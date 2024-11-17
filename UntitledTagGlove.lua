@@ -10,15 +10,20 @@ Duration = 1;
 end
 
 if game.PlaceId == 7234087065 then
-    -- game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-249,300,-493)
-    fireclickdetector(workspace.Signs:GetChildren()[12].Text.ClickDetector)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/msedgeContainer/scriptstring/refs/heads/main/BarzilAutoObby.lua"))()
+    wait(2)
+    game:GetService("TeleportService"):Teleport(115782629143468, game.Players.LocalPlayer)
 end
 
 --[[
-in the barzil (if game.PlaceId == 7234087065 then) if you want the clickdetector to work better remove the -- in game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-249,300,-493)
+barzil auto obby is pretty cool actually instead of firing clickdetector because it didnt work for me
 --]]
 
 if game.PlaceId == 115782629143468 then
     wait(2)
+    while wait() do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12,202,30)
+    end
+    wait(3)
+    game:GetService("ReplicatedStorage").Sacrifice:FireServer(true)
 end
