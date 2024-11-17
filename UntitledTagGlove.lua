@@ -11,7 +11,7 @@ end
 
 if game.PlaceId == 7234087065 then
     -- game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-249,300,-493)
-    fireclickdetector(workspace.Signs:GetChildren()[13].Text.ClickDetector)
+    fireclickdetector(workspace.Signs:GetChildren()[13].Text)
 end
 
 --[[
