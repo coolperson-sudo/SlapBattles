@@ -1,3 +1,7 @@
+--[[
+if u think that i stole it check .gg/nP4ZVx2mfB i published the script and msedgeContainer is my alt github account
+--]]
+
 if game.PlaceId == 6403373529 then
     setclipboard("https://discord.gg/nP4ZVx2mfB")
     game.StarterGui:SetCore("SendNotification", {
